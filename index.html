@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Thomas Farrar | Software Engineer - Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Thomas Farrar | Software Engineer</title>
+    <link rel="icon" type="image/x-icon" href="tf.ico">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"
+          >TF</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#education">Education</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I'm <span class="about__name">Thomas Farrar</span></h1>
+        <h2 class="about__role">A Software Engineer</h2>
+        <p class="about__desc">
+          Final year BSc Computing student at the University of Exeter with a passion for technology and problem-solving. Seeking opportunities to continue growing my skills and contributing to innovative projects in the tech industry.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1CUcuri0JWRECzZgK_0zZ9X5ESNMOpTXB/view?usp=sharing" target="_blank">
+            <span class="btn btn--outline">CV</span>
+          </a>
+
+          <a
+            href="https://github.com/ThomasJFarrar"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/thomas-farrar/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+
+          <div class="project">
+            <h3>Automated Covid Data Dashboard</h3>
+            <p class="project__description">
+              Provides up to date local and national Covid-19 figures, up to date Covid-19 news, with the ability to create, modify and remove automated scheduled updates.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">NewsAPI</li>
+            </ul>
+
+            <a
+              href="https://github.com/ThomasJFarrar/Automated-Covid-Data-Dashboard"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!--<a
+              href=""
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> --> <p>Demo coming soon!</p>
+          </div>
+
+          <div class="project">
+            <h3>Cycling Race Management System</h3>
+            <p class="project__description">
+              Back-end package that supports rider and team management, race design, and race result recording, with the goal of promoting cycling and community health.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Javadoc</li>
+              <li class="project__stack-item">OOP</li>
+            </ul>
+
+            <a
+              href="https://github.com/ThomasJFarrar/Cycling-Race-Management-System/"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!--
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <h3>Problem Solving</h3>
+            <p class="project__description">
+              Efficiently solving problems that are based from The Sunday Times newspaper's weekly 'Teasers', step by step by using functional and logic programming languages.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Haskell</li>
+              <li class="project__stack-item">Prolog</li>
+            </ul>
+
+            <a
+              href="https://github.com/ThomasJFarrar/Problem-Solving-with-Functional-and-Logic-Programming/"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://replit.com/@ThomasFarrar/Problem-Solving"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              href="https://swish.swi-prolog.org/p/question%203%20comp%20lang%20and%20rep.pl"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              href="https://swish.swi-prolog.org/p/question%204%20comp%20lang%20and%20rep.pl"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Maze Solver</h3>
+            <p class="project__description">
+              Development, investigation and analysis of a range of searching algorithms for their effectiveness in efficiently solving mazes of different sizes and complexities.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Algorithms</li>
+            </ul>
+
+            <a
+              href="https://github.com/ThomasJFarrar/Maze-Solving-Algorithms/"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://replit.com/@ThomasFarrar/Maze-Solving-Algorithms"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Card Game Simulation</h3>
+            <p class="project__description">
+             Plays a multi-threaded simulated card game, where players aim to acquire a winning hand containing four cards of identical value.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">JUnit</li>
+            </ul>
+
+            <a
+              href="https://github.com/ThomasJFarrar/Multi-Threaded-Card-Playing-Simulation"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://replit.com/@ThomasFarrar/Multi-Threaded-Card-Game"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Clean Commute</h3>
+            <p class="project__description">
+              Designed to encourage University students and staff to travel to campus more sustainably. Users are rewarded points for their journeys to spend on rewards at outlets around campus.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Django</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+<!--
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href=""
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+            <p class="project_description">Code coming soon!</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Django</li>
+          <li class="skills__list-item btn btn--plain">Android</li>
+          <li class="skills__list-item btn btn--plain">Lua</li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section class="section education" id="education">
+        <h2 class="section__title">Education</h2>
+        <div class="institution">
+          <img src="uoe.png" alt="University of Exeter" class="institution_logo">
+          <div>
+            <p>2021-2024</p>
+            <h4>University of Exeter</h4>
+            <p>BSc Computing (expected 1st)</p>
+          </div>
+        </div>
+
+        <div class="institution">
+          <img src="utc.png" alt="UTC Portsmouth" class="institution_logo">
+          <div>
+            <p>2019-2021</p>
+            <h4>UTC Portsmouth</h4>
+            <ul>
+              <li>A-Level Computer Science (A*)</li>
+              <li>A-Level Mathematics (A*)</li>
+              <li>CTEC Extended Certificate in Engineering Level 3 (D*)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="institution">
+          <img src="sjc.jpg" alt="St John's College" class="institution_logo">
+          <div>
+            <p>2014-2019</p>
+            <h4>St John's College Southsea</h4>
+            <ul>
+              <li>9 GCSEs (9-5 inc. English & Maths)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:thomas.james.farrar@gmail.com" target="_blank">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href=""
+        class="link footer__link"
+      >
+        Thomas Farrar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
